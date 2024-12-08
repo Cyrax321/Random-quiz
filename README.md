@@ -1,5 +1,5 @@
 
-# 5 Random Quiz Generator
+# Random Quiz Generator
 
 ## Project Overview
 
