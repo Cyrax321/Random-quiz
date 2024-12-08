@@ -1,0 +1,99 @@
+/* General Body Styling */
+body {
+  font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background */
+      color: #ffffff; /* White text */
+        margin: 0;
+          padding: 0;
+            display: flex;
+              justify-content: center;
+                align-items: center;
+                  height: 100vh;
+                  }
+
+                  /* Container Styling */
+                  #quiz-app {
+                    background: #1e1e1e; /* Slightly lighter dark background */
+                      padding: 20px;
+                        border-radius: 10px;
+                          box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.7); /* Subtle shadow */
+                            text-align: center;
+                              width: 90%;
+                                max-width: 500px;
+                                }
+
+                                /* Header Styling */
+                                h1, h2 {
+                                  color: #bb86fc; /* Purple accent color */
+                                    margin-bottom: 20px;
+                                    }
+
+                                    /* Button Styling */
+                                    button {
+                                      background-color: #333333; /* Dark button */
+                                        color: #ffffff; /* White text */
+                                          padding: 10px 20px;
+                                            margin-top: 15px;
+                                              border: none;
+                                                border-radius: 5px;
+                                                  font-size: 16px;
+                                                    cursor: pointer;
+                                                      transition: background-color 0.3s ease, transform 0.2s;
+                                                      }
+
+                                                      button:hover {
+                                                        background-color: #bb86fc; /* Purple accent on hover */
+                                                          transform: scale(1.05); /* Slight hover effect */
+                                                          }
+
+                                                          button:disabled {
+                                                            background-color: #666666; /* Grey for disabled buttons */
+                                                              cursor: not-allowed;
+                                                              }
+
+                                                              /* Question and Answer Buttons */
+                                                              #question-text {
+                                                                font-size: 20px;
+                                                                  margin-bottom: 20px;
+                                                                  }
+
+                                                                  #answer-buttons button {
+                                                                    background-color: #2e2e2e; /* Darker grey for answers */
+                                                                      color: #ffffff;
+                                                                        border: 1px solid #444; /* Slight border */
+                                                                          margin: 10px 0;
+                                                                            width: 100%;
+                                                                              padding: 10px;
+                                                                                text-align: center;
+                                                                                  border-radius: 5px;
+                                                                                    transition: background-color 0.3s ease, transform 0.2s;
+                                                                                    }
+
+                                                                                    #answer-buttons button:hover {
+                                                                                      background-color: #444444; /* Slight hover effect */
+                                                                                      }
+
+                                                                                      #answer-buttons button.correct {
+                                                                                        background-color: #4caf50; /* Green for correct answers */
+                                                                                          color: white;
+                                                                                          }
+
+                                                                                          #answer-buttons button.wrong {
+                                                                                            background-color: #f44336; /* Red for wrong answers */
+                                                                                              color: white;
+                                                                                              }
+
+                                                                                              /* Result Screen */
+                                                                                              #score-display {
+                                                                                                font-size: 24px;
+                                                                                                  margin: 20px 0;
+                                                                                                    color: #bb86fc; /* Purple accent */
+                                                                                                    }
+
+                                                                                                    /* Responsive Design */
+                                                                                                    @media (max-width: 600px) {
+                                                                                                      body {
+                                                                                                          padding: 10px;
+                                                                                                            }
+                                                                                                            }
+                                                                                                            
