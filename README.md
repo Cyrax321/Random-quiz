@@ -1,9 +1,9 @@
 
-# Random Quiz Generator
+# quizzy
 
 ## Project Overview
 
-The **5 Random Quiz Generator** is a web-based quiz application that dynamically generates a set of **5 random general knowledge questions** using the **Open Trivia Database API**. The app provides users with an interactive and responsive experience, featuring **instant feedback** on answers and a final score at the end of the quiz. The sleek **dark theme** ensures a professional look and feel.
+The **Quizzy** is a web-based quiz application that dynamically generates a set of **5 random general knowledge questions** using the **Open Trivia Database API**. The app provides users with an interactive and responsive experience, featuring **instant feedback** on answers and a final score at the end of the quiz. The sleek **dark theme** ensures a professional look and feel.
 
 This application is built using **HTML**, **CSS**, and **JavaScript**, and it leverages the Open Trivia Database API to fetch random questions in real time.
 
